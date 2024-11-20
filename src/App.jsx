@@ -13,7 +13,7 @@ const PersonInfo = () => {
   const [message, setMessage] = useState("");
 
   const handleClick = () => {
-    setMessage("You clicked the button! ");
+    setMessage("Вы нажали «Повысить в должности»!");
   };
 
   return (
@@ -43,7 +43,7 @@ const PersonInfo = () => {
           borderRadius: "5px"
         }}
       >
-        Click Me
+        Повысить в должности
       </button>
     </div>
   );
