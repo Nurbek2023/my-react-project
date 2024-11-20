@@ -13,7 +13,7 @@ const PersonInfo = () => {
   const [message, setMessage] = useState("");
 
   const handleClick = () => {
-    setMessage("Button clicked!");
+    setMessage("You clicked the button! ");
   };
 
   return (
@@ -26,8 +26,8 @@ const PersonInfo = () => {
       <p><strong>Location:</strong> {person.location}</p>
       <p><strong>Hobbies:</strong> {person.hobbies}</p>
       
-      {/* Сообщение */}
-      {message && <p style={{ color: "green", marginTop: "20px" }}>{message}</p>}
+      {/* Сообщение над кнопкой*/}
+      {message && <p style={{ color: "green", marginBottom: "10px" }}>{message}</p>}
 
       {/* Кнопка */}
       <button 
